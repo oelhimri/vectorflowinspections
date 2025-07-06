@@ -5,96 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Vector Flow Inspections</title>
 
-    <!-- ===== STYLES ===== -->
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- STYLE -->
     <style>
-        /* Change your global fonts, background, and text colors here */
-        body { 
-            font-family: Arial, sans-serif; 
-            margin: 0; 
-            padding: 0; 
-            background: #f8f9fa; /* page background color */
-            color: #333; /* text color */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            line-height: 1.6;
         }
-        header { 
-            background: #004080; /* header background color */
-            color: white; 
-            padding: 20px; 
-            text-align: center; 
+        header {
+            background: url('https://images.unsplash.com/photo-1558008258-0a1b4810f05e?fit=crop&w=1600&q=80') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px 80px;
         }
-        header h1 { 
-            margin: 0; 
-            font-size: 2em; 
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
         }
-        section { 
-            padding: 20px; 
-            max-width: 800px; 
-            margin: auto; 
+        header p {
+            font-size: 1.2em;
         }
-        h2 { 
-            color: #004080; /* section heading color */
+        section {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px 20px;
         }
-        footer { 
-            background: #222; /* footer background color */
-            color: white; 
-            text-align: center; 
-            padding: 10px; 
+        h2 {
+            color: #004080;
+            margin-bottom: 10px;
         }
-        .cta { 
-            display: block; 
-            background: #004080; /* button background color */
-            color: white; 
-            text-align: center; 
-            padding: 15px; 
-            margin: 20px auto; 
-            width: 200px; 
-            text-decoration: none; 
-            border-radius: 5px; 
+        ul {
+            padding-left: 20px;
         }
-        .cta:hover { 
-            background: #0066cc; /* button hover color */
+        footer {
+            background: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .cta {
+            display: inline-block;
+            background: #004080;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        .cta:hover {
+            background: #0066cc;
+        }
+        .logo {
+            width: 120px;
+            margin: 20px auto;
+            display: block;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- ===== HEADER ===== -->
+    <!-- HEADER / HERO SECTION -->
     <header>
+        <!-- Logo placeholder, replace src with your logo URL later -->
+        <img src="https://via.placeholder.com/120x120.png?text=Logo" alt="Vector Flow Inspections Logo" class="logo">
         <h1>Vector Flow Inspections</h1>
-        <p>Sewer & Drain Camera Inspection Services</p>
+        <p>Expert Sewer & Drain Camera Inspections</p>
+        <a href="mailto:info@vectorflowinspections.com" class="cta">Book an Inspection</a>
     </header>
 
-    <!-- ===== SERVICES SECTION ===== -->
+    <!-- SERVICES SECTION -->
     <section>
         <h2>Our Services</h2>
-        <p>Vector Flow Inspections provides professional sewer and drain camera inspections for homeowners, realtors, and property managers. We help you identify clogs, breaks, and hidden issues before they become costly repairs.</p>
+        <p>We provide detailed sewer and drain camera inspections for homeowners, real estate professionals, and property managers across Evansville, Newburgh, Mt Vernon, Henderson, and Boonville. We help identify hidden issues, blockages, and pipe conditions before they become costly problems.</p>
     </section>
 
-    <!-- ===== WHY CHOOSE US SECTION ===== -->
+    <!-- WHY CHOOSE US SECTION -->
     <section>
-        <h2>Why Choose Us</h2>
+        <h2>Why Choose Vector Flow Inspections?</h2>
         <ul>
-            <li>✅ HD camera inspections for clear diagnostics</li>
-            <li>✅ Fast reports for real estate transactions</li>
-            <li>✅ Locally owned and transparent pricing</li>
-            <li>✅ Serving Evansville, Newburgh, Mt Vernon, Henderson, Boonville</li>
+            <li>✅ HD camera inspections with clear, actionable reports</li>
+            <li>✅ Fast turnaround for real estate transactions</li>
+            <li>✅ Transparent, competitive pricing</li>
+            <li>✅ Locally owned and operated for quick response times</li>
         </ul>
     </section>
 
-    <!-- ===== CONTACT SECTION ===== -->
+    <!-- CONTACT SECTION -->
     <section>
         <h2>Contact Us</h2>
+        <p>Ready to inspect your sewer and drain lines?</p>
         <p>
-            📞 Call us at <strong>(812) 555-1234</strong><br>
-            📧 Email us at <strong>info@vectorflowinspections.com</strong>
+            📞 <strong>(812) 555-1234</strong><br>
+            📧 <strong>info@vectorflowinspections.com</strong>
         </p>
-        <!-- If you want to change the button text or link, edit here -->
-        <a href="mailto:info@vectorflowinspections.com" class="cta">Book Now</a>
+        <a href="mailto:info@vectorflowinspections.com" class="cta">Request Your Inspection</a>
     </section>
 
-    <!-- ===== FOOTER ===== -->
+    <!-- FOOTER -->
     <footer>
-        &copy; 2025 Vector Flow Inspections. All rights reserved.
+        &copy; 2025 Vector Flow Inspections. All Rights Reserved.
     </footer>
 
 </body>
