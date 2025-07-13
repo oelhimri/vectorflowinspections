@@ -1,113 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Bernoulli Inspections</title>
-
-    <!-- GOOGLE FONT -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bernoulli Inspections - Sewer & Drain Camera Experts</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- STYLE -->
     <style>
         body {
-            margin: 0;
             font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
             color: #333;
-            line-height: 1.6;
+            background-color: #f4f4f4;
         }
         header {
-            background: url('https://images.unsplash.com/photo-1558008258-0a1b4810f05e?fit=crop&w=1600&q=80') center/cover no-repeat;
+            background: url('https://images.unsplash.com/photo-1614436161177-54c847ea3c6c?fit=crop&w=1600&q=80') center/cover no-repeat;
             color: white;
+            padding: 100px 20px;
             text-align: center;
-            padding: 100px 20px 80px;
         }
         header h1 {
-            font-size: 2.5em;
+            font-size: 3em;
             margin: 0;
         }
         header p {
             font-size: 1.2em;
         }
-        section {
-            max-width: 800px;
+        .section {
+            max-width: 900px;
             margin: auto;
-            padding: 40px 20px;
+            padding: 50px 20px;
+            background: white;
+            margin-bottom: 20px;
         }
-        h2 {
+        .section h2 {
             color: #004080;
-            margin-bottom: 10px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        footer {
-            background: #004080;
-            color: white;
-            text-align: center;
-            padding: 15px;
         }
         .cta {
             display: inline-block;
+            padding: 12px 30px;
             background: #004080;
             color: white;
             text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 5px;
-            margin-top: 15px;
-            transition: background 0.3s;
+            border-radius: 4px;
+            margin-top: 20px;
         }
         .cta:hover {
             background: #0066cc;
         }
-        .logo {
-            width: 120px;
-            margin: 20px auto;
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .benefits, .how-it-works {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .benefit, .step {
+            flex: 1 1 250px;
+            background: #e9f0fa;
+            padding: 20px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .benefit img, .step img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+        .video-placeholder {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
             display: block;
+            border: 5px solid #004080;
+            border-radius: 5px;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- HEADER / HERO SECTION -->
     <header>
-        <!-- Logo placeholder, replace src with your logo URL later -->
-        <img src="https://via.placeholder.com/120x120.png?text=Logo" alt="Vector Flow Inspections Logo" class="logo">
         <h1>Bernoulli Inspections</h1>
-        <p>Expert Sewer & Drain Camera Inspections</p>
-        <a href="mailto:info@BernoulliInspections.com" class="cta">Book an Inspection</a>
+        <p>Sewer & Drain Camera Inspections | Evansville & Surrounding Areas</p>
+        <a href="mailto:info@bernoulliinspections.com" class="cta">Request an Inspection</a>
     </header>
 
-    <!-- SERVICES SECTION -->
-    <section>
-        <h2>Our Services</h2>
-        <p>We provide detailed sewer and drain camera inspections for homeowners, real estate professionals, and property managers across Evansville, Newburgh, Mt Vernon, Henderson, and Boonville. We help identify hidden issues, blockages, and pipe conditions before they become costly problems.</p>
-    </section>
+    <div class="section">
+        <h2>Why Choose Bernoulli Inspections?</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Camera Icon">
+                <h3>HD Sewer Camera</h3>
+                <p>Clear, precise video inspections to diagnose problems accurately the first time.</p>
+            </div>
+            <div class="benefit">
+                <img src="https://cdn-icons-png.flaticon.com/512/545/545682.png" alt="Checklist Icon">
+                <h3>Detailed Reports</h3>
+                <p>Easy-to-understand results and recommendations delivered fast.</p>
+            </div>
+            <div class="benefit">
+                <img src="https://cdn-icons-png.flaticon.com/512/1250/1250615.png" alt="Clock Icon">
+                <h3>Quick Scheduling</h3>
+                <p>Fast turnaround for real estate transactions, homeowners, and property managers.</p>
+            </div>
+        </div>
+    </div>
 
-    <!-- WHY CHOOSE US SECTION -->
-    <section>
-        <h2>Why Choose Vector Flow Inspections?</h2>
+    <div class="section">
+        <h2>How It Works</h2>
+        <div class="how-it-works">
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/2991/2991109.png" alt="Appointment Icon">
+                <h3>1. Schedule Your Inspection</h3>
+                <p>Call or email us to set a time that works for you. We show up on time, every time.</p>
+            </div>
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/2436/2436750.png" alt="Inspection Icon">
+                <h3>2. Conduct the Inspection</h3>
+                <p>We run a professional sewer camera through your lines to identify any blockages, breaks, or root intrusion.</p>
+            </div>
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="Results Icon">
+                <h3>3. Deliver Your Results</h3>
+                <p>You receive a full report and video within 24 hours to make informed decisions quickly.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>See What We See</h2>
+        <p>This is what a sewer scope video typically looks like — identifying clogs, breaks, and other costly issues early saves time and money.</p>
+        <img src="https://cdn.pixabay.com/photo/2015/07/02/10/22/sewer-828655_960_720.jpg" alt="Sewer Scope Video Example" class="video-placeholder">
+    </div>
+
+    <div class="section">
+        <h2>About Bernoulli Inspections</h2>
+        <p>We are a locally owned sewer inspection company serving Evansville, Newburgh, Mount Vernon, Henderson, Boonville, and surrounding areas. Our mission is to provide homeowners, real estate professionals, and property managers with honest, clear, and accurate assessments of underground sewer systems. We don't fix pipes — we provide unbiased diagnostics so you know exactly what you're dealing with.</p>
+        <p>Named after Bernoulli's Principle for fluid dynamics, we believe clear flow and clear answers matter in everything we do.</p>
+    </div>
+
+    <div class="section">
+        <h2>Service Area</h2>
+        <p>Based in Evansville, we proudly serve:</p>
         <ul>
-            <li>✅ HD camera inspections with clear, actionable reports</li>
-            <li>✅ Fast turnaround for real estate transactions</li>
-            <li>✅ Transparent, competitive pricing</li>
-            <li>✅ Locally owned and operated for quick response times</li>
+            <li>Evansville, IN</li>
+            <li>Newburgh, IN</li>
+            <li>Mount Vernon, IN</li>
+            <li>Henderson, KY</li>
+            <li>Boonville, IN</li>
         </ul>
-    </section>
+    </div>
 
-    <!-- CONTACT SECTION -->
-    <section>
-        <h2>Contact Us</h2>
-        <p>Ready to inspect your sewer and drain lines?</p>
+    <div class="section">
+        <h2>Get In Touch</h2>
         <p>
             📞 <strong>(812) 555-1234</strong><br>
-            📧 <strong>info@BernoulliInspections.com</strong>
+            📧 <strong>info@bernoulliinspections.com</strong>
         </p>
-        <a href="mailto:info@BernoulliInspections.com" class="cta">Request Your Inspection</a>
-    </section>
+        <a href="mailto:info@bernoulliinspections.com" class="cta">Book Your Inspection</a>
+    </div>
 
-    <!-- FOOTER -->
     <footer>
         &copy; 2025 Bernoulli Inspections. All Rights Reserved.
     </footer>
